@@ -1,0 +1,71 @@
+table {
+	width: 100%;
+}
+		
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 2px 16px 2px 16px;
+}
+		
+td, th {
+	text-align: center;
+}
+
+a {
+  color: #e6effc;
+	text-decoration: underline;
+	text-decoration-color: #2961ba;
+}
+		
+input[type=text] {
+	width: 100%;
+}
+		
+button {
+	width: 25px;
+	height: 25px;
+}
+		
+header {
+	background-color: #4287f5;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: #e6effc;
+	text-decoration: underline;
+	text-decoration-color: #2961ba;
+}
+
+section {
+	display: flex;
+}
+
+nav {
+	flex: 15%;
+	background: #7fadf5;
+	padding: 20px;
+	padding-right: 0px;
+}
+
+article {
+	flex: 85%;
+	background-color: #e6effc;
+	padding: 10px;
+}
+
+footer {
+	background-color: #2961ba;
+	padding: 10px;
+	font-size: 15px;
+	text-align: center;
+	color: #e6effc;
+}
+
+@media (max-width: 600px) {
+	section {
+		-webkit-flex-direction: column;
+		flex-direction: column;
+		flex: 100%;
+	}
+}
