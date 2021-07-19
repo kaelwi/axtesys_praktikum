@@ -1,3 +1,7 @@
+# Praktikum at axtesys GmbH
+12.7.-16.7.2021
+A simple contact manager. No input validation.
+
 # Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
